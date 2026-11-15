@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Máquina em Dia</title>
+<meta name="theme-color" content="#1B242B">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Máquina em Dia">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+</head>
+<body>
+<main class="wrap">
+  <div class="top">
+    <div class="brand"><img class="logo" alt="" src="data:image/png;base64,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"><b>Máquina em Dia</b></div>
+    <div class="who"><span id="who"></span><button class="btn small hide" id="sair" type="button">Sair</button></div>
+  </div>
+
+  <section class="card auth" id="entrar" aria-labelledby="t1">
+    <h1 id="t1">Entrar</h1>
+    <p class="sub">Use o número de segurança e a senha que você criou.</p>
+    <form id="f-login" novalidate>
+      <label for="l-num">Número de segurança</label>
+      <input id="l-num" type="text" inputmode="numeric" autocomplete="username">
+      <label for="l-senha">Senha</label>
+      <input id="l-senha" type="password" autocomplete="current-password">
+      <div class="err" id="l-err" role="alert"></div>
+      <div class="err ok-msg" id="l-ok" role="status"></div>
+      <button class="btn" type="submit">Entrar</button>
+    </form>
+    <p class="alt"><button type="button" class="linkbtn" id="esqueci">Esqueci a senha</button></p>
+    <p class="alt">Ainda não tem conta? <a id="ir-criar" role="button" tabindex="0">Criar conta</a></p>
+  </section>
+
+  <section class="card auth hide" id="criar" aria-labelledby="t2">
+    <h1 id="t2">Criar conta</h1>
+    <p class="sub">Escolha um número de segurança só seu (letras e números) e guarde, porque é com ele que você entra. Seu nome e e-mail vão aparecer em cada registro que você fizer.</p>
+    <form id="f-criar" novalidate>
+      <label for="c-num">Escolha seu número de segurança</label>
+      <input id="c-num" type="text" inputmode="numeric" autocomplete="off">
+      <label for="c-nome">Nome completo</label>
+      <input id="c-nome" type="text" autocomplete="name">
+      <label for="c-email">E-mail (usado para recuperar a senha)</label>
+      <input id="c-email" type="email" autocomplete="email" inputmode="email">
+      <label for="c-senha">Senha (mínimo 6 caracteres)</label>
+      <input id="c-senha" type="password" autocomplete="new-password">
+      <label for="c-senha2">Repita a senha</label>
+      <input id="c-senha2" type="password" autocomplete="new-password">
+      <div class="err" id="c-err" role="alert"></div>
+      <button class="btn" type="submit">Criar conta</button>
+    </form>
+    <p class="alt">Já tem conta? <a id="ir-entrar" role="button" tabindex="0">Entrar</a></p>
+  </section>
+
+  <div id="app" class="hide">
+    <nav class="tabs" aria-label="Seções">
+      <button type="button" class="tab" data-vista="linhas">Linhas e postos</button>
+      <button type="button" class="tab" data-vista="painel">Painel</button>
+      <button type="button" class="tab" data-vista="pessoas">Pessoas</button>
+      <button type="button" class="tab" data-vista="minhas">Minhas ocorrências</button>
+    </nav>
+    <p class="crumb" id="crumb"></p>
+
+    <section class="card" id="card-novo" aria-labelledby="h-novo">
+      <h1 id="h-novo">Abrir ocorrência</h1>
+      <p class="muted">A data e o início já vêm preenchidos com o momento em que você abriu esta tela. Ação, fim e responsável podem ser preenchidos depois, ao finalizar.</p>
+      <form id="form" novalidate>
+        <div class="grid">
+          <div><label for="data">Data</label><input id="data" type="date"></div>
+          <div><label for="inicio">Início da ocorrência</label><input id="inicio" type="time"></div>
+          <div><label for="linha">Linha</label><input id="linha" type="text" list="linhas-lista" placeholder="Escolha ou digite" autocomplete="off"></div>
+          <div><label for="posto">Posto</label><input id="posto" type="text" list="postos-lista" placeholder="Escolha ou digite" autocomplete="off"></div>
+          <div><label for="ocorr">Ocorrência</label><input id="ocorr" type="text" placeholder="O que aconteceu" autocomplete="off"></div>
+          <div><label for="acao">Ação da ocorrência</label><input id="acao" type="text" placeholder="O que foi feito" autocomplete="off"></div>
+          <div><label for="fim">Fim da ocorrência</label><div class="duplo"><input id="fim" type="datetime-local"><button class="btn small" id="fim-agora" type="button">Agora</button></div></div>
+          <div><label for="resp">Responsável pela ocorrência</label><input id="resp" type="text" list="resp-lista" placeholder="Nome" autocomplete="off"></div>
+        </div>
+        <datalist id="linhas-lista"></datalist><datalist id="postos-lista"></datalist><datalist id="resp-lista"></datalist>
+        <button class="btn" type="submit">Registrar ocorrência</button>
+        <span class="muted" id="ferr" role="alert"></span>
+      </form>
+    </section>
+
+    <section class="card hide" id="linhas" aria-labelledby="h-linhas">
+      <h1 id="h-linhas">Linhas e postos</h1>
+      <p class="muted">Cada linha mostra os postos que já tiveram ocorrência. Os que têm ocorrência em aberto aparecem em vermelho.</p>
+      <p class="muted hide" id="sem-linhas">Nenhuma linha ainda. Elas aparecem aqui quando você registra a primeira ocorrência.</p>
+      <div class="maq-grid" id="linhas-grid"></div>
+    </section>
+
+    <section class="card hide" id="painel" aria-labelledby="h-painel">
+      <h1 id="h-painel">Painel</h1>
+      <div class="bar"><label class="inl" for="p-periodo">Período</label>
+        <select id="p-periodo"><option value="7">Últimos 7 dias</option><option value="30" selected>Últimos 30 dias</option><option value="mes">Este mês</option><option value="tudo">Tudo</option></select></div>
+      <div id="painel-corpo"></div>
+    </section>
+
+    <section class="card hide" id="pessoas" aria-labelledby="h-pessoas">
+      <h1 id="h-pessoas">Pessoas</h1>
+      <p class="muted">Quem já abriu ocorrências. Toque numa pasta para ver todas as ocorrências da pessoa.</p>
+      <p class="muted hide" id="sem-pessoas">Ninguém registrou nada ainda.</p>
+      <div class="pastas" id="pastas"></div>
+    </section>
+
+    <section class="card" id="card-lista" aria-labelledby="h-lista">
+      <h1 id="h-lista">Ocorrências</h1>
+      <p class="muted" id="cont"></p>
+      <div class="bar">
+        <input id="busca" type="search" placeholder="Buscar linha, posto, ocorrência ou pessoa" aria-label="Buscar">
+        <select id="filtro" aria-label="Filtrar por situação"><option value="todas">Todas</option><option value="paradas">Só em aberto</option><option value="consertadas">Só finalizadas</option></select>
+        <select id="f-linha" aria-label="Filtrar por linha"></select>
+      </div>
+      <div class="bar">
+        <select id="periodo" aria-label="Período"><option value="tudo">Todo o período</option><option value="hoje">Hoje</option><option value="7">Últimos 7 dias</option><option value="30">Últimos 30 dias</option><option value="mes">Este mês</option><option value="custom">Escolher datas</option></select>
+        <span id="custom" class="hide bar"><input id="de" type="date" aria-label="De"><input id="ate" type="date" aria-label="Até"></span>
+        <label class="inl" for="alerta">Alerta de ocorrência longa</label>
+        <select id="alerta"><option value="0">Desligado</option><option value="1">após 1 hora</option><option value="2">após 2 horas</option><option value="4" selected>após 4 horas</option><option value="8">após 8 horas</option><option value="24">após 24 horas</option></select>
+      </div>
+      <div class="bar">
+        <button class="btn small" id="xlsx" type="button">Exportar .xlsx</button>
+        <button class="btn small" id="pdf" type="button">Gerar PDF</button>
+        <span class="muted" id="xerr" role="alert"></span>
+      </div>
+      <p class="muted" id="vazio">Nenhuma ocorrência registrada ainda.</p>
+      <div id="corpo" class="cards"></div>
+    </section>
+  </div>
+</main>
+<div id="relatorio" class="imp-alvo"></div>
+
+<script type="module" src="/main.js"></script>
+</body>
+</html>
